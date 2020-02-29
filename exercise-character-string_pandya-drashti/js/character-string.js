@@ -10,13 +10,12 @@ console.log('The position of the word "JavaScript":', SENTENCE.indexOf('JavaScri
 
 console.log('The position of the last \'is\':', SENTENCE.lastIndexOf('is'))
 
-var parts = SENTENCE.split('.');
-console.log('The last sentence only:', SENTENCE[SENTENCE.length - 1])
+console.log('The last sentence only:', SENTENCE.split('. ')[1])
 
-console.log('The 10 characters starting from the 17th character:', SENTENCE.substring(17, SENTENCE[SENTENCE.length - 1], 10))
+console.log('The 10 characters starting from the 17th character:', SENTENCE.slice(17, 27))
 
-console.log('The number of words in the whole phrase:', str.split(' ').length)
+console.log('The number of words in the whole phrase:', SENTENCE.split(' ').length)
 
-console.log('The 61st character:', SENTENCE.indexOf(61))
+console.log('The 61st character:', SENTENCE.charAt(61))
 
-console.log('Replace \'you\' with \'I\' in the whole phrase:', ? ? ? ? ? ? ? )
+console.log('Replace \'you\' with \'I\' in the whole phrase:', SENTENCE.replace(/you/g, "I"))
