@@ -68,5 +68,5 @@ document.write('<td>');
 document.write('<b>', total, '$</b>');
 document.write('</td>');
 
-document.write('</tr>');
+xdocument.write('</tr>');
 document.write('</table>')
